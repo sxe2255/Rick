@@ -51,12 +51,12 @@ checkbox.addEventListener('change', (event)=>{
         arrowUp.style.display = 'block';
         dataRender(data);
         mainBox = document.querySelector('main');
-        if(mainBox.clientHeight < window.innerHeight){
+    // if(mainBox.clientHeight < window.innerHeight){
 
-            arrowUp.style.display = 'block';
-            page += 1;
-            dataRick().then(dataRender);
-        }
+    //     arrowUp.style.display = 'block';
+    //     page += 1;
+    //     dataRick().then(dataRender);
+    // }
     }
 })
 
