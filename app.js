@@ -138,7 +138,6 @@ function dataRender(data){
         cardBox.append(cardName);
         mainBox.append(cardBox)
     });
-    console.log(dataAll)
 }
 function getNextPage(){
     if(page !== data.info.pages){
